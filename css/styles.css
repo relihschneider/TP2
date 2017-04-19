@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran');
+
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*---------------------------------------------*/
+/* Mobile First */
+nav {
+  background: #DB2431;
+  color: white;
+       background-image:linear-gradient(90deg, #DB2431,#7D4295);
+}
+
+.seccion1{
+  background: #FDC945;
+  color: white;
+}
+
+.seccion2{
+  background: white;
+  color: black;
+}
+
+.seccion3{
+  background-color: #1D2827;
+  color: white;
+}
+
+.seccion4{
+  background: #FDC945;
+  color: white;
+}
+
+footer {
+    background: #222222;
+    color: #626262;
+}
+
+
+/*---------------------------------------------*/
+/* Desktop */
+
+nav {
+  background: #DB2431;
+  color: white;
+       background-image:linear-gradient(90deg, #DB2431,#7D4295);
+}
+
+.seccion1{
+  background: #FDC945;
+  color: white;
+}
+
+.seccion2{
+  background: white;
+  color: black;
+}
+
+.seccion3{
+  background-color: #1D2827;
+  color: white;
+}
+
+.seccion4{
+  background: #FDC945;
+  color: white;
+}
+
+footer {
+    background: #222222;
+    color: #626262;
+}
