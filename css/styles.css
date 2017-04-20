@@ -507,6 +507,8 @@ nav {
     display: flex;
     flex-direction: column;
     align-content: flex-end;
+    display: flex;
+    align-items: flex-end;
   }
 
   .stop-waiting{
