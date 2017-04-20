@@ -147,6 +147,11 @@ nav {
   align-self: center;
   width: 80%;
   margin-bottom: 100px;
+  max-width: 320px;
+}
+
+.iconos-apps img{
+  padding-top: 10px;
 }
 
 .unlimited-blanco{
@@ -180,9 +185,14 @@ nav {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+.telefono-imagen {
+  display: flex;
+  justify-content: center;
+}
+
 
 .telefono-imagen img{
-  width: 100%;
+  height: 75%;
   margin-bottom: 70px;
 }
 
@@ -484,6 +494,20 @@ nav {
     line-height: 42px;
 }
 
+  .cuerpo {
+    display: flex;
+    flex-direction: row;
+  }
+  .cuerpom1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .titulospc {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+  }
 
   .stop-waiting{
     display: flex;
@@ -542,6 +566,7 @@ nav {
     justify-content: center;
     width: 50%;
     margin-bottom: 100px;
+    max-width: none;
 }
 
 .iconos-apps img{
