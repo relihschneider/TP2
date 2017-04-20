@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Catamaran');
 
 * {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Catamaran', sans-serif;
   box-sizing: border-box;
 }
 
@@ -10,8 +10,12 @@
 /* Mobile First */
 
 .gradiente-de-fondo{
-  background-image:linear-gradient(90deg, #DB2431,#7D4295);
+  background-image: linear-gradient(90deg, #DB2431,#7D4295);
 }
+.tramado-de-fondo{
+  background-image: url("../imagenes/fondo.png");
+}
+
 
 nav {
   width: 100%;
@@ -38,7 +42,7 @@ nav {
   align-items: center;
   padding: 10px;
   border-radius: 10%;
-  border: 1px solid #666666; 
+  border: 1px solid #666666;
   margin: 10px;
 }
 
@@ -46,7 +50,7 @@ nav {
   font-size: 12px;
   font-weight: 400;
   color: #666666;
-  padding: 2px; 
+  padding: 2px;
 }
 
 .ion-navicon-round{
@@ -68,21 +72,21 @@ nav {
 }
 
 .contenedor-titulo-boton h3{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
   color: #ffffff;
   text-align: center;
   margin-top: 70px;
-
+  line-height: 35px;
 }
 
 .contenedor-titulo-boton .boton{
   font-size: 12px;
   font-weight: 300;
   color: #ffffff;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 50px 10px 50px;
   border-radius: 50px;
-  border: 1px solid #ffffff; 
+  border: 1px solid #ffffff;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -92,7 +96,7 @@ nav {
   margin-bottom: 70px;
 }
 
-.apps-amarillo { 
+.apps-amarillo {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -109,17 +113,18 @@ nav {
 }
 
 .contedor-apps-amarillo h2{
-  font-size: 25px;
+  font-size: 50px;
   font-weight: 400;
   color: #ffffff;
   text-align: center;
   margin-top: 70px;
+  line-height: 55px;
 }
 
 .contedor-apps-amarillo p{
   color: #ffffff;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -149,7 +154,7 @@ nav {
 }
 
 .titular h2{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
   color: #404040;
   text-align: center;
@@ -159,10 +164,10 @@ nav {
 .titular p{
   color: #666666;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 22px;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .telefono-imagen img{
@@ -188,7 +193,7 @@ nav {
 }
 
 .device-mockups h4{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
   color: #404040;
   text-align: center;
@@ -196,7 +201,7 @@ nav {
 
 .device-mockups p{
   color: #666666;
-  font-size: 15px;
+  font-size: 22px;
   font-weight: 400;
   text-align: center;
   margin-top: 10px;
@@ -209,7 +214,7 @@ nav {
 }
 
 .flexible-use h4{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
   color: #404040;
   text-align: center;
@@ -217,7 +222,7 @@ nav {
 
 .flexible-use p{
   color: #666666;
-  font-size: 15px;
+  font-size: 22px;
   font-weight: 400;
   text-align: center;
   margin-top: 10px;
@@ -231,7 +236,7 @@ nav {
 }
 
 .free-to-use h4{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
   color: #404040;
   text-align: center;
@@ -239,7 +244,7 @@ nav {
 
 .free-to-use p{
   color: #666666;
-  font-size: 15px;
+  font-size: 22px;
   font-weight: 400;
   text-align: center;
   margin-top: 10px;
@@ -252,7 +257,7 @@ nav {
 }
 
 .open-source h4{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
   color: #404040;
   text-align: center;
@@ -260,24 +265,31 @@ nav {
 
 .open-source p{
   color: #666666;
-  font-size: 15px;
+  font-size: 22px;
   font-weight: 400;
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 100px;
 }
 
 
 .stop-waiting{
   display: flex;
   flex-direction: column;
-  background: grey;
   align-items: flex-start;
   padding: 20px;
+  padding-top: 15em;
+  padding-bottom: 15em;
+  background-image: url("../imagenes/usuario.jpg");
+  background-repeat: no-repeat;
+  background-size: 1100px;
+  background-position: center;
 }
 
 .textoyboton p{
-  font-size: 25px;
+  font-size: 45px;
   color: #ffffff;
+  line-height: 50px;
 }
 
 .boton{
@@ -285,11 +297,10 @@ nav {
   font-size: 12px;
   font-weight: 300;
   color: #ffffff;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 50px 10px 50px;
   border-radius: 50px;
   border: 1px solid #ffffff;
   margin-top: 20px;
-  margin-bottom: 30px;
 }
 
 
@@ -303,15 +314,17 @@ nav {
 
 .we-love p{
   color: #ffffff;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   margin-bottom: 20px;
+  padding-top: 80px;
+  line-height: 60px;
 }
 
 .ion-heart{
   color: #dd4b39;
   font-size: 50px;
-} 
+}
 
 .iconos-redes{
   display: flex;
@@ -366,6 +379,7 @@ footer {
   background: #404040;
   color: #626262;
   text-align: center;
+  font-weight: bold;
 }
 
 
@@ -374,18 +388,53 @@ footer {
 
 /*---------------------------------------------*/
 /* Desktop */
+@media screen and (min-width: 1024px) {
 
-.gradiente-de-fondo{
-  background-image:linear-gradient(90deg, #DB2431,#7D4295);
-}
+  .menudesktop{
+    display: flex;
+  }
+  .menuresponsive{
+    display: none;
+  }
 
-nav {
-  width: 100%;
-  color: #ffffff;  
-}
+  .new-age{
+    max-height: 500px;
+  }
 
+  .new-age img{
+    width: 30%;
+    margin-bottom: 70px;
+    align-self: flex-end;
+  }
 
-footer {
-    background: #222222;
-    color: #626262;
+  .stop-waiting{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    padding-left: 50px;
+    background-image: url("../imagenes/usuario.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+
+  .textoyboton p{
+    font-size: 80px;
+    color: #ffffff;
+    line-height: 80px;
+  }
+
+  .boton{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 10px 50px 10px 50px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    margin-top: 20px;
+  }
 }
