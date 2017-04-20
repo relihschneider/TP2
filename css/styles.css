@@ -678,4 +678,11 @@ nav {
   display: flex;
 }
 
+.titular p {
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+}
 
